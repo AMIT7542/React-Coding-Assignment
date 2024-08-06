@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* width: 218px;
+    height: 160px;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 11px;
+    color: black;
+    font-size: 15px;
+    margin: 2px; */
+.parent {
+  width: 450px;
+  background: aquamarine;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  border-radius: 6px;
+  margin: auto;
+}
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+}
+.formData {
+  display: flex;
+  gap: 29px;
+  /* justify-content: revert; */
+  align-items: center;
+}
+.input {
+  padding: 7px;
+  border-radius: 9px;
+}
+button {
+  padding: 12px;
+  width: 95px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  margin: 2px;
+}
+.contactInfo {
+  display: flex;
+  gap: 27px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+input {
+  width: 50%;
+  text-align: left;
+}
+
+label {
+  width: 20%;
+  min-width: 155px;
+}
+.submit {
+  text-align: left;
+  margin-left: 20%;
+}
